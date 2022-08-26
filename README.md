@@ -16,7 +16,11 @@ Dimensional Representation is more elaborate and gives more information. But due
 We used the [ShEMO](http://saliency.mit.edu/results_cat2000.html) (Sharif Emotional Speech Database) dataset in this project to train and evaluate the model.
 The database includes 3000 semi-natural utterances, equivalent to 3 hours and 25 minutes of speech data extracted from online radio plays.
 
- <img src="https://github.com/hoseinAzdmlki/SER/blob/master/ims/dataset_class_distribution.png" width="500" height="400" class="centerImage">
+ <img src="https://github.com/hoseinAzdmlki/SER/blob/master/ims/dataset_class_distribution.png" 
+ width="500"
+ height="400" 
+ class="centerImage" 
+ background="WITH">
  
 As you can see in the bar chart, the dataset is very imbalanced, which makes classifying harder for the model, especially in minority classes.
 So we used data augmentation methods to improve the performance and accuracy of the model.
