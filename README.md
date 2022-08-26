@@ -1,4 +1,4 @@
-# Transformer-based modek fo Speech Emotion Recognition(SER) - implemented by Pytorch
+# Transformer-based model for Speech Emotion Recognition(SER) - implemented by Pytorch
 
 ## Overview:
 To solve the emotion recognition problem with speech, two classes of features are lexical features (the vocabulary used) and acoustic features (sound properties).
