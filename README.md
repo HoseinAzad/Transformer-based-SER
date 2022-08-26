@@ -1,7 +1,7 @@
 # Transformer-based model for Speech Emotion Recognition(SER) - implemented by Pytorch
 
 ## Overview:
-To solve the emotion recognition problem with speech, two classes of features are lexical features (the vocabulary used) and acoustic features (sound properties).
+To solve the emotion recognition problem from speech, There is two classes of features: lexical features (the vocabulary used) and acoustic features (sound properties).
 We could also use both to solve the problem. But note that using lexical features would require having a transcript of the speech; in other words, it requires an 
 additional step for text extraction from speech (speech recognition). Hence, we choose to analyze the acoustic features in this work.<br>
 
