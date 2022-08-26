@@ -17,7 +17,7 @@ We used the [ShEMO](http://saliency.mit.edu/results_cat2000.html) (Sharif Emotio
 The database includes 3000 semi-natural utterances, equivalent to 3 hours and 25 minutes of speech data extracted from online radio plays.
 
  <img src="https://github.com/hoseinAzdmlki/SER/blob/master/ims/dataset_class_distribution.png" 
- width="700"
+ width="600"
  height="400" 
  class="centerImage" 
  background="WITH">
