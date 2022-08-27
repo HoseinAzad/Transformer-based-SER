@@ -10,6 +10,13 @@ and Dominance (on an active to passive scale).
 
 Dimensional Representation is more elaborate and gives more information. But due to the lack of annotated audio data in a dimensional format, we used discrete classification approach in this project.
 
+## Model
+The model comprises two main parts: a pre-trained speech model based on transformer architecture to extract features, named [Hubert](https://arxiv.org/abs/2106.07447), and accepts a float array corresponding to the raw waveform of the speech signal. And a classifier head that takes Hubert output and contains two linear layers and a tanh activation function. 
+
+Note that loading the Hubert is performed with the help of AutoModel class (from Huggingface ), and just by changing the model_checkpoint variable (in config.py ), you could use the other architectures like wave2vec, etc. (for more information, read this Huggingface [document](https://huggingface.co/docs/transformers/model_doc/auto#transformers.AutoModel)).
+
+
+
 ## Dataset
 We used the [ShEMO](https://arxiv.org/abs/1906.01155) (Sharif Emotional Speech Database) to train and evaluate the model.
 The database includes 3000 semi-natural utterances, equivalent to 3 hours and 25 minutes of speech data extracted from online radio plays.
@@ -18,4 +25,5 @@ So we used data augmentation methods to improve the performance and accuracy of 
 <p align="left">
  <img src="https://github.com/hoseinAzdmlki/SER/blob/master/ims/dataset_class_distribution.png" width="600"height="400" class="centerImage" >
 </p>
- 
+
+
