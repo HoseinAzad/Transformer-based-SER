@@ -10,7 +10,7 @@ wd = 0.002
 sc_g = 0.1
 # Scheduler step
 sc_s = 10
-# # Sharif Emotional Speech database  path
+# Sharif Emotional Speech database path
 data_path = 'ShEMO'
 # train/validation split ratio
 train_size = 0.85
