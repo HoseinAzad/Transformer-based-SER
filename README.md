@@ -19,7 +19,7 @@ Note that loading the Hubert is performed with the help of AutoModel class (from
 ## Dataset
 I used the [ShEMO](https://arxiv.org/abs/1906.01155) (Sharif Emotional Speech Database) to train and evaluate the model.
 The database includes 3000 semi-natural utterances, equivalent to 3 hours and 25 minutes of speech data extracted from online radio plays.
-As you can see in the bar chart, the dataset is very imbalanced, which makes classifying harder, especially in minority classes.
+As you can see in the bar chart, the dataset is very imbalanced which makes classifying harder, especially in minority classes.
 So we used data augmentation methods to improve the performance and accuracy of the model.
 <p align="left">
  <img src="https://github.com/hoseinAzdmlki/SER/blob/master/ims/dataset_class_distribution.png" width="600"height="400" class="centerImage" >
