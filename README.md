@@ -11,7 +11,7 @@ and Dominance (on an active to passive scale).
 Dimensional Representation is more elaborate and gives more information. But due to the lack of annotated audio data in a dimensional format, we used discrete classification approach in this project.
 
 ## Model
-The model comprises two main parts: a pre-trained speech model based on transformer architecture to extract features, named [Hubert](https://arxiv.org/abs/2106.07447) and accepts a float array corresponding to the raw waveform of the speech signal. And a classifier head that takes Hubert output and contains two linear layers and a tanh activation function. 
+The model comprises two main parts: a pre-trained speech model based on transformer architecture to extract features, named [Hubert](https://arxiv.org/abs/2106.07447) and accepts a float array corresponding to the raw waveform of the speech signal. And a classifier head that takes Hubert output and contains two linear layers and a tanh activation function.<br>
 Note that loading the Hubert is performed with the help of AutoModel class (from Huggingface ) and just by changing the model_checkpoint variable (in config.py ), you could use the other architectures like Wav2vec. (for more information, read this Huggingface [document](https://huggingface.co/docs/transformers/model_doc/auto#transformers.AutoModel)).
 
 
