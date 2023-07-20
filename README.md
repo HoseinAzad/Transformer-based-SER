@@ -24,9 +24,6 @@ The database includes 3000 semi-natural utterances, equivalent to 3 hours and 25
  
 As you can see in the bar chart, the dataset is very imbalanced, which makes classifying harder for the model, especially in minority classes.
 So we used data augmentation methods to improve the performance and accuracy of the model.
-
-```
-http://saliency.mit.edu/trainSet.zip
-```
+ 
 
 
